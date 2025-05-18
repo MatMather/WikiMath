@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>WikiMath - Texto MathPleto para seu dia!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🔎 WikiMath - Texto MathPleto para seu dia!</h1>
+    <input type="text" id="termo" placeholder="Digite algo de matemática...">
+    <div class="botoes">
+      <button onclick="inserir('√')">√</button>
+      <button onclick="inserir('∛')">∛</button>
+      <button onclick="inserir('+')">+</button>
+      <button onclick="inserir('-')">−</button>
+      <button onclick="inserir('÷')">÷</button>
+      <button onclick="inserir('×')">×</button>
+      <button onclick="buscar()">Buscar</button>
+      <button onclick="pararFala()">🔇 Parar Fala</button>
+    </div>
+    <div id="resultado"></div>
+    <h3>Histórico</h3>
+    <ul id="listaHistorico"></ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
